@@ -34,9 +34,10 @@ void ReaderThread()
             number = g_list.front();
 
             g_list.pop_front();
-
-            if (number == kMax) return;
         }
+
+
+        if (number == kMax) return;
 
         std::cout << number << std::endl;
 
